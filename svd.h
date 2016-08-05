@@ -13,5 +13,6 @@ int dluav(double a[],int m,int n,double u[],double v[],double eps,int ka);
 void damul(double a[],double b[],int m,int n,int k,double c[]);
 void ppp(double a[],double e[],double s[],double v[],int m,int n);
 void sss(double fg[2],double cs[2]);
+double norm(double a[],int m,int n,double u[],double v[],double eps,int ka);
 
 #endif

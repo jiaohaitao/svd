@@ -1,5 +1,9 @@
 #include "svd.h"
-
+double norm(double a[],int m,int n,double u[],double v[],double eps,int ka)
+{
+	dluav(a,m,n,u,v,eps,ka);
+	return a[0];
+}
 /*********************************************************************
  * 矩阵的奇异值分解，参见《c 常用算法程序集》徐世良P169
  * 参数说明：
